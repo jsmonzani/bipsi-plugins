@@ -24,7 +24,7 @@ Originally, this is for large assets, usually a 16x16 grid of 256 tiles (each be
 
 ### Supported options 
 The field "magic-options" supports special options in JSON format
-- "keepColors": false - works in conjunction with another plugin that imports colored tilesets.
+- "keepColors": false - set it to true is you want to use color tiles, typically in conjunction with the [import-image](https://github.com/floriancargoet/bipsi-binksi-plugins/blob/main/dist/import-image.js) plugin which supports colored tilesets.
 - "experimental":false - some experimental features like multi-frame animation (only works if you haven't created animations and for tilesets with tiles that haven't been manually reordered). Undocumented, unsupported, use at your own risk.
 
 ### Disclaimer
